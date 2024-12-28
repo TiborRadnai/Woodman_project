@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    background-color: rgb(198, 223, 204) !important;
+    font-family: "Nunito", serif !important;
+}
+.image-zoom {
+    transition: transform .9s ease;
+}
+.image-zoom:hover {
+    transform: scale(1.2);
+}
+.btn {
+    background-color: rgb(54, 160, 54) !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    border: 1px solid black !important;
+    box-shadow: 5px 5px 5px;
+}
+.btn:hover {
+    background-color: rgb(0,130,0) !important;
+}
