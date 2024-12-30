@@ -61,3 +61,24 @@ body {
     background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
     background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
   }
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Kezdetben rejtve */
+  background-color: #007bff; /* Háttérszín */
+  color: white; /* Szöveg színe */
+  padding: 10px 20px; /* Margók */
+  border-radius: 5px; /* Lekerekített sarkok */
+  text-decoration: none; /* Link dekoráció eltávolítása */
+}
+
+#back-to-top:hover {
+  background-color: #0056b3; /* Háttérszín egér fölött */
+}
+
+/* Gomb megjelenítése görgetés közben */
+.show {
+  display: inline;
+}
