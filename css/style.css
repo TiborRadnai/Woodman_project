@@ -2,7 +2,16 @@
 body {
     background-color: rgb(198, 223, 204) !important;
     font-family: "Nunito", serif !important;
+    width: 100%;
 }
+.logo {
+  padding-bottom: 200px !important;
+}
+.logo-image {
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0) !important;
+  width: 20%;
+}
+
 .image-zoom {
     transition: transform .9s ease;
 }
