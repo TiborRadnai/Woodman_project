@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
-    background-color: rgb(198, 223, 204) !important;
-    font-family: "Nunito", serif !important;
-    width: 100%;
+  background-color: rgb(198, 223, 204) !important;
+  font-family: "Nunito", serif !important;
+  width: 100%;
 }
 .logo {
   padding-bottom: 200px !important;
@@ -13,81 +13,81 @@ body {
 }
 
 .image-zoom {
-    transition: transform .9s ease;
+  transition: transform .9s ease;
 }
 .image-zoom:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
-.btn {
-    background-color: rgb(54, 160, 54) !important;
-    text-transform: uppercase;
-    font-weight: 600 !important;
-    border: 1px solid black !important;
-    box-shadow: 5px 5px 5px;
+#moreButton {
+	box-shadow: 0px 0px 10px 2px #3dc21b;
+	background-color:#44c767;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 10px #2f6627;
 }
-.btn:hover {
-    background-color: rgb(0,130,0) !important;
+#moreButton:hover {
+  background-color: #5cbf2a !important;
 }
-
+#moreButton:active {
+  position:relative;
+	top:1px;
+}
 .contact3 {
-    font-family: "Montserrat", sans-serif;
-    color: #8d97ad;
-    font-weight: 300;
-  }
-  
-  .contact3 h1,
-  .contact3 h2,
-  .contact3 h3,
-  .contact3 h4,
-  .contact3 h5,
-  .contact3 h6 {
-    color: #3e4555;
-  }
-  
-  .contact3 .font-weight-medium {
-    font-weight: 500;
-  }
-  
-  .contact3 .card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-  }
-  
-  .contact3 .btn-danger-gradiant {
-    background: #ff4d7e;
-    background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
-    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
-    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
-    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
-  }
-  
-  .contact3 .btn-danger-gradiant:hover {
-    background: #ff6a5b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
-    background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
-    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
-    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
-  }
-
-#back-to-top {
-  position: fixed;
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+.contact3 h1,
+.contact3 h2,
+.contact3 h3,
+.contact3 h4,
+.contact3 h5,
+.contact3 h6 {
+  color: #3e4555;
+}
+.contact3 .font-weight-medium {
+  font-weight: 500;
+}
+.contact3 .card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+#myBtn { 
+  display: none;
+  position: fixed; 
   bottom: 20px;
-  right: 20px;
-  display: none; /* Kezdetben rejtve */
-  background-color: #007bff; /* Háttérszín */
-  color: white; /* Szöveg színe */
-  padding: 10px 20px; /* Margók */
-  border-radius: 5px; /* Lekerekített sarkok */
-  text-decoration: none; /* Link dekoráció eltávolítása */
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none; 
+	background-color:#44c767;
+	box-shadow: 0px 0px 10px 2px #3dc21b;
+  color: white; 
+  cursor: pointer;
+	padding:14px 8px;
+	border-radius:10px;
+  font-size: 17px;
+  text-decoration:none;
+  text-shadow:0px 0px 10px #2f6627;
+} 
+#myBtn:hover {
+	background-color:#5cbf2a;
 }
-
-#back-to-top:hover {
-  background-color: #0056b3; /* Háttérszín egér fölött */
+#myBtn:active {
+	position:relative;
+	top:1px;
 }
-
-/* Gomb megjelenítése görgetés közben */
-.show {
-  display: inline;
+.footerButtons {
+  text-decoration:none;
+  color: #44c767;
+  text-transform: uppercase;
+}
+.footerButtons:hover {
+  color:#5cbf2a;
 }
